@@ -13,7 +13,7 @@ async function startServer() {
     `)
   })
     .on('error', err => {
-      Logger.error('error');
+      Logger.error(err);
   })
 }
 
