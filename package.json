@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec ts-node -r tsconfig-paths/register src/app.ts",
+    "dev": "nodemon --exec ts-node -r tsconfig-paths/register app.ts",
     "build": "tsc -p tsconfig.json",
     "prestart": "rm -rf ./dist && npm run build",
     "start": "ts-node -r tsconfig-paths/register dist/app.js"
